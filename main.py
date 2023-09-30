@@ -2,8 +2,10 @@ import smtplib
 import datetime as dt
 import random
 
+# -- Sending quotes on Monday -- #
+
 my_email = "tedmbangudemy@gmail.com"
-app_password = "gyqwqlwobzfktjrh"
+app_password = ""  # fill the password for the email here
 ME = "tdark237@gmail.com"
 
 
@@ -16,7 +18,7 @@ def send_email(msg):
 
 now = dt.datetime.now()
 weekday = now.weekday()
-if weekday == 5:
+if weekday == 1:
     with open("quotes.txt") as quote_file:
         # Getting the list of every single line in the file
         all_quotes = quote_file.readlines()
