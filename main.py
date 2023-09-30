@@ -4,7 +4,6 @@ import random
 
 my_email = "tedmbangudemy@gmail.com"
 app_password = "gyqwqlwobzfktjrh"
-HILARY = "hilaryndjamen@gmail.com"
 ME = "tdark237@gmail.com"
 
 
